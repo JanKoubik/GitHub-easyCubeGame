@@ -1,0 +1,7 @@
+{
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.debug": false,
+    "eslint.enable": true,
+    "eslint.quiet": false,
+    "eslint.alwaysShowStatus": false
+}

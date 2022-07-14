@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.allPage {
+    background: linear-gradient(rgb(242, 255, 0),rgb(0, 153, 255));
+    height: 100vh;
+}
+
+.playPlace {
+    background: white;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.playerScore0 {
+    padding: 15px 20px;
+    top: 10%;
+    left: 15%;
+    position: absolute;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.playerScore1 {
+    padding: 15px 20px;
+    top: 10%;
+    right: 15%;
+    position: absolute;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* RealTimeScore ============================================================ */
+
+.realTimeScore {
+    padding-top: 15px;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(rgb(225, 255, 0),rgb(0, 153, 255));
+}
+
+.realTimeScore p {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(57, 57, 57);
+    text-shadow: 1px -1px 1px rgb(255, 255, 255);
+    text-align: center;
+}
+
+.realTimeScore p:nth-child(2) {
+    color: white;
+    text-shadow: 1px -1px 1px black;
+    padding-top: 10px;
+    font-size: 45px;
+}
+
+.realTimeScore0 {
+    position: absolute;
+    top: 40%;
+    left: 14%;
+}
+
+.realTimeScore1 {
+    position: absolute;
+    top: 40%;
+    right: 14%;
+}
+
+/* gamesButtons ´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´ */
+
+.placeForGamesButtons {
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    font-size: 35px;
+    color: rgb(33, 33, 33);
+    text-shadow: 1px -1px 1px rgb(255, 255, 255);
+    text-align: center;
+}
+
+.gameButton {
+    margin-bottom: 15px;
+    background: linear-gradient(rgb(255, 251, 0),rgb(0, 153, 255));
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.gameButton:hover {
+    background: linear-gradient(rgb(0, 153, 255),rgb(255, 251, 0));
+    color: black;
+}
+
+/* cubeImg ´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´ */
+.placeForCube {
+    position: absolute;
+    top: 20%;
+    left: 42%;
+}
+
+.activePlayer {
+    color: rgb(33, 33, 33);
+    text-shadow: 1px -1px 1px rgb(255, 255, 255);
+    background: linear-gradient(rgb(0, 153, 255),rgb(255, 251, 0));
+}
